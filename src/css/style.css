@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
+
+
+@media (min-width: 1024px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: white;
+        color: rgb(57, 46, 75);
+        font-weight: bold;
+        font-family: 'Asap', sans-serif;
+        text-align:center;
+    }
+
+    .header {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .about {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 300px;
+        margin-bottom: 300px;
+    }
+
+    .title {
+        font-size: 60px;
+        text-align: left;
+        margin-right: 100px;
+    }
+
+    .subtitle {
+        font-size: 40px;
+        margin-right: 150px;
+    }
+
+    .content {
+        margin-left: 150px;
+        font-size:30px;
+        line-height: 40px;
+    }
+
+    .titleimg {
+        display: block;
+        width: 520px;
+        height: 480px;
+        margin-left: 100px;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 60px;
+    }
+
+    .navbar-brand {
+        width:50px;
+        height:23px;
+        font-weight: bold;
+        margin-right: 100px;
+    }
+
+    .navbar-item {
+        text-decoration: none;
+        color: rgb(86, 77, 100);
+        font-size: 23px;
+        margin-right: 20px;
+    }
+    .navbar-item:hover {
+        color: rgb(63, 63, 63);
+    }
+
+
+
+    .green {
+        color: rgb(24, 206, 100);
+    }
+    .blue {
+        color: rgb(62, 88, 206);
+    }
+    .red {
+        color :rgb(250, 72, 59);
+    }
+    .underline {
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+    }
+
+}
+
+
+
+
+@media (max-width:700px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: white;
+        color: rgb(57, 46, 75);
+        font-weight: bold;
+        font-family: 'Asap', sans-serif;
+        text-align: center;
+    }
+
+    .header {
+        text-align: center;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* margin-top: 10px; */
+    }
+    
+    .about {
+        text-align: center;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        margin-top: 300px;
+        margin-bottom: 300px;
+    }
+    
+    .title {
+        font-size: 60px;
+        /* margin-right: 100px; */
+        margin-bottom: 10px;
+    }
+    
+    .subtitle {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .content {
+        font-size:30px;
+        line-height: 40px;
+    }
+    
+    .titleimg {
+        width: 400px;
+        height: 380px;
+    }
+    
+    .navbar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 60px;
+    }
+    
+    .navbar-brand {
+        width:50px;
+        height:23px;
+        font-weight: bold;
+    }
+    
+    .navbar-item {
+        visibility: hidden;
+    }
+    .navbar-item:hover {
+        color: rgb(63, 63, 63);
+    }
+    
+    
+    
+    .green {
+        color: rgb(24, 206, 100);
+    }
+    .blue {
+        color: rgb(62, 88, 206);
+    }
+    .red {
+        color :rgb(250, 72, 59);
+    }
+    .underline {
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+    }
+}
