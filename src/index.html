@@ -4,6 +4,7 @@
     <head>
         <title>DIA</title>
         <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
@@ -31,11 +32,48 @@
             <img class="titleimg" src="./img/titleImg.png" />
         </div>
 
-        <!-- About Me  -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f3f4f5" fill-opacity="1" d="M0,0L34.3,10.7C68.6,21,137,43,206,64C274.3,85,343,107,411,112C480,117,549,107,617,90.7C685.7,75,754,53,823,58.7C891.4,64,960,96,1029,112C1097.1,128,1166,128,1234,112C1302.9,96,1371,64,1406,48L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+        </svg>
+
+        <!-- About Me -->
         <div class="about">
             <div class="subtitle">About <span class="blue underline">ME</span></div>
 
             <div class="content">I'm a <span class="blue">16(16)</span> years old middle school <span class="blue">student</span><br>who likes Programming from <span class="blue">Korea</span>.<br>I have been learning Programming since elementary school.</div>
+        </div>
+
+        <!-- Skill -->
+        <div class="about">
+            <div class="subtitle">My <span class="green underline">Skills</span></div>
+
+            <div>
+                <div class="chart">
+                    <table class="charts-css bar show-heading" id="skill-chart">
+                        <caption class="chart-title" style="margin-bottom:10px;">Language</caption>
+    
+                        <td style="--size: calc(8 / 10); background: rgb(253, 255, 116); border-radius: 10px 10px 10px 0; padding-right: 10px;"> JS/Node </td>
+                        <td style="--size: calc(7 / 10); background: rgb(175, 194, 255); border-radius: 0 10px 10px 0; padding-right: 10px;"> TS </td>
+                        <td style="--size: calc(7.5 / 10); background: rgb(158, 255, 119); border-radius: 0 10px 10px 0; padding-right: 10px;"> Html/Css </td>
+                        <td style="--size: calc(4.5 / 10); background: rgb(155, 206, 255); border-radius: 0 10px 10px 0; padding-right: 10px;"> C/CPP </td>
+                        <td style="--size: calc(5 / 10); background: rgb(217, 182, 231); border-radius: 0 10px 10px 0; padding-right: 10px;"> C# </td>
+                        <td style="--size: calc(4 / 10); background: rgb(113, 163, 255); border-radius: 0 10px 10px 0; padding-right: 10px;"> Python </td>
+                        <td style="--size: calc(1.5 / 10); background: rgb(158, 255, 119); border-radius: 0 10px 10px 10px; padding-right: 10px;"> Rust </td>
+                    </table>
+                </div>
+    
+                <div class="chart">
+                    <table class="charts-css bar show-heading" id="skill-chart">
+                        <caption class="chart-title" style="margin-bottom:10px;">Framework</caption>
+    
+                        <td style="--size: calc(8 / 10); background: rgb(116, 137, 255); border-radius: 10px 10px 10px 0; padding-right: 10px;"> Bootstrap </td>
+                        <td style="--size: calc(7 / 10); background: rgb(129, 223, 126); border-radius: 0 10px 10px 0; padding-right: 10px;"> Vue </td>
+                        <td style="--size: calc(7.5 / 10); background: rgb(119, 255, 255); border-radius: 0 10px 10px 0; padding-right: 10px;"> React </td>
+                        <td style="--size: calc(4 / 10); background: rgb(125, 203, 206); border-radius: 0 10px 10px 0; padding-right: 10px;"> Next.JS </td>
+                        <td style="--size: calc(5 / 10); background: rgb(235, 126, 158); border-radius: 0 10px 10px 10px; padding-right: 10px;"> Nest.JS </td>
+                    </table>
+                </div>
+            </div>
         </div>
 
     </body>
