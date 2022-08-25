@@ -105,13 +105,35 @@
             <div class="contact">
                 <div class="phsubtitle"><span class="underline">Contact</span> Me</div>
     
-                <img class="badgeimg" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-                <img class="badgeimg" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+                <a class="ct" href="mailto:dy4ode@gmail.com">
+                    <img class="badgeimg" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+                </a>
+                <a class="ct" onclick="OnClickDiscord()">
+                    <img class="badgeimg" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+                </a>
+                
                 <img class="badgeimg" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+                
+                <div class="ctds" id="ctds">DiA#5141</div>
             </div>
         </div>
 
+        <script>
+            let a = false
+            document.getElementById("ctds").style.visibility = "hidden"
 
+            function OnClickDiscord () {
+                navigator.clipboard.writeText("DiA#5141")
+
+                if (!a) {
+                    document.getElementById("ctds").style.visibility = "visible"
+                    a = true
+                } else {
+                    document.getElementById("ctds").style.visibility = "hidden"
+                    a = false
+                }
+            }
+        </script>
 
     </body>
 </html>

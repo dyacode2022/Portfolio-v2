@@ -198,6 +198,18 @@
     .svgwave {
         margin-bottom: -10px;
     }
+
+    .ctds {
+        position: relative;
+        padding: 20px;
+        background: white;
+        color:rgb(58, 58, 58);
+        font-size: 20px;
+        border-radius: 20px;
+        width: 100px;
+        transform: translate(-50%);
+        left: 50%;
+    }
       
 
 
