@@ -6,11 +6,23 @@
     body {
         margin: 0;
         padding: 0;
-        background: #f3f4f5;
+        /* background: #f3f4f5; */
         color: rgb(57, 46, 75);
         font-weight: bold;
         font-family: 'Asap', sans-serif;
         text-align: center;
+    }
+
+    td {
+        color: rgb(57, 46, 75);
+    }
+
+    .front {
+        background: #f3f4f5;
+    }
+
+    .end {
+        background: #41804D;
     }
 
     .header {
@@ -18,8 +30,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        /* margin-top: 100px; */
-        height: 900px;
+        margin-top: 30px;
+        height: 400px;
         /* background: white; */
     }
 
@@ -27,13 +39,45 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        /* margin-top: 100px; */
+        margin-bottom: 400px;
+        color: #f3f4f5;
+    }
+
+    .skabout {
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* margin-top: 100px; */
+        margin-bottom: 400px;
+        color: #f3f4f5;
+    }
+
+    .badge {
         margin-top: 100px;
-        margin-bottom: 600px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .badgeimg {
+        margin: 30px;
+        width: auto;
+        height: 60px;
+        border-radius: 10px;
+        box-shadow: 11px 14px 50px 9px rgba(0, 0, 0, 0.116);
+    }
+
+    .lang {
+        margin-bottom: 80px;
+    }
+    .etc {
+        margin-bottom: 80px;
     }
 
     .project {
         margin-top: 100px;
-        margin-bottom: 600px;
+        margin-bottom: 400px;
+        color: #f3f4f5;
     }
 
     .center {
@@ -44,16 +88,17 @@
     .title {
         font-size: 60px;
         text-align: left;
-        margin-right: 100px;
+        margin-right: 150px;
     }
 
     .subtitle {
         font-size: 40px;
-        margin-right: 150px;
+        /* margin-right: 150px; */
     }
+
     .phsubtitle {
         font-size: 40px;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
 
     .subskill {
@@ -67,27 +112,31 @@
         line-height: 40px;
     }
 
+    .contact {
+        padding-bottom: 400px;
+        color: #f3f4f5;
+    }
+
     .titleimg {
         display: block;
         width: 520px;
         height: 480px;
-        margin-left: 100px;
+        margin-left: 150px;
     }
 
     .navbar {
-        width: 100%;
+        width: 90%;
         display: flex;
         align-items: center;
         padding: 60px;
-        background: white;
+        background: #f3f4f5;
     }
 
     .navbar-brand {
-        width:50px;
-        height:23px;
+        font-size: 35px;
         font-weight: bold;
         margin-right: 100px;
-        background: white;
+        color:rgb(24, 206, 100)
     }
 
     .navbar-item {
@@ -98,20 +147,6 @@
     }
     .navbar-item:hover {
         color: rgb(63, 63, 63);
-    }
-
-    #skill-chart.bar {
-        height: 250px;
-        max-width: 800px;
-        margin-left: 250px;
-    }
-
-    .chart {
-        width: 950px;
-    }
-
-    .chart-title {
-        font-size: 20px;
     }
 
     .btn {
@@ -134,13 +169,16 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
     }
+    .btn:hover {
+        box-shadow: 11px 14px 30px 9px rgba(0, 0, 0, 0.062);
+    }
 
     .card {
         border-radius: 20px;
         width: 420px;
         margin: 20px;
-        padding: 20px;
-        /* background: rgb(226, 226, 226); */
+        padding: 40px;
+        background: rgb(64, 163, 94);
         box-shadow: 11px 14px 50px 9px rgba(0, 0, 0, 0.144);
     }
 
@@ -153,12 +191,33 @@
         margin-bottom: 10px;
     }
 
+    .card-text {
+        font-size: 20px;
+    }
+
+    .svgwave {
+        margin-bottom: -10px;
+    }
       
+
+
+    .wavgreen {
+        color: rgb(78, 223, 138);
+    }
+    .wavblue {
+        color: rgb(255, 255, 255);
+        /* text-shadow: -0.5px 0 rgb(255, 255, 255), 0 0.5px white, 0.5px 0 white, 0 -1px white; */
+        font-weight: bolder;
+    }
+    .wavred {
+        color :rgb(255, 119, 109);
+    }
+
 
 
 
     .green {
-        color: rgb(24, 206, 100);
+        color: rgb(40, 187, 101);
     }
     .blue {
         color: rgb(62, 88, 206);
@@ -231,7 +290,7 @@
         width: 100%;
         display: flex;
         align-items: center;
-        padding: 60px;
+        padding: 20px;
     }
     
     .navbar-brand {
@@ -309,8 +368,10 @@
         font-size: 40px;
         margin-bottom: 150px;
     }
-    
-    
+
+
+
+
     
     .green {
         color: rgb(24, 206, 100);
